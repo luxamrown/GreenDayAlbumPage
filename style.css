@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 50px;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    max-width: 100%;
+    background: url("img/home_wallpaper.jpg");
+    background-position: -300px -200px;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    color: #DA0037;
+    transition: 0.2s;
+}
+
+header h1:hover{
+    color: #da0037a1;
+}
+
+nav {
+    background-color:#DA0037;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+nav a{
+    color: #EEEEEE;
+    display: flex;
+    align-items: center;   
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    color: #874356;
+    background-color: #ffffff;
+}
+
+.container {
+    background-color: #EEEEEE;
+    display: flex;
+    height: 500px;
+    border-top: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+.coverAlbum {
+    width: 50%;
+    display: flex;
+    justify-content:center;
+}
+
+.coverAlbum img {
+    margin-top: 50px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.coverAlbum img:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+
+.detailAlbum {
+    height: 500px;
+    width: 50%;
+    justify-content:center;
+}
+
+.listening {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.listening a{
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    padding: 20px 50px;
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.2s;
+
+}   
+
+.listening a:hover{
+    color: #EEEEEE;
+    background-color: #DA0037;
+}
+
+footer{
+    background-color: #DA0037;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: #EEEEEE;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 270px;
+}
+
+
