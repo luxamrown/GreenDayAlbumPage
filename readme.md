@@ -1,3 +1,3 @@
-![screely-1651032583347](https://user-images.githubusercontent.com/63460549/165438918-2de07756-9d84-47ea-a350-2d3f625d941b.png)
+![screely-1651032583347](https://user-images.githubusercontent.com/63460549/165439259-29055b5e-1dd6-4af2-9245-661542dc74c2.jpg)
 
 Source of photos = greenday.com, spotify
